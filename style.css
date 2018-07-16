@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #dddddd;
+}
+
+body{
+  background: url(background.jpg);
+  background-size: cover;
+
+}
+
+.contentt{
+  width: 500px;
+}
+
+.clr{
+  clear: both;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    color:black;
+  }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+
+
+  header{
+    text-align: center;
+    background-color: rgb(19, 18, 66);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    position: relative;
+    
+    top: 10;
+  }
+  header h1{
+    color:white;
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: rgb(0, 68, 255);
+    padding: 15px;
+    margin: 20px;
+    position: relative ;
+    text-align: center;
+    left: 10;
+    top: 10;
+  }
+  .h1,h1 {
+    text-align: center;
+    width: 250;
+    height: 250;
+    color: rgb(15, 3, 182);
+    border-width: 0px, 0px, 2px, 0px;
+    border-color: gray;
+}
+
+.containerrr{
+  margin: auto;
+  padding: 20px;
+
+}
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 15px;
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #000000;
+}
+
+.container_tabel table{
+  padding-left: 20px;
+  border-left: 20px;
+  margin: 20px;
+}
+
+.pictures{
+  padding: 20px;
+  margin: 20px;
+  float: left;
+  width: 33%;
+}
+
+.containter_tabel caption{
+  color: #ffffff
+}
